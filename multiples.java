@@ -9,6 +9,6 @@ class multiples
            {if((i%3==0)||(i%5==0))
            s=s+i;
         }
-       System.out.println(s);
+       System.out.println("Sum="+s);
     }
 }
