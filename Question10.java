@@ -6,8 +6,8 @@ class Question10
     //****************************************************************
     public static void main(String args[])
     {
-        int i,j,c=0;long s=0;
-        for(i=2;i<2000000;i++)
+        int i,j,c=0;long s=2;
+        for(i=3;i<2000000;i=i+2)
         {
             for(j=2;j<=Math.sqrt(i);j++)
             {
