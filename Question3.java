@@ -7,13 +7,11 @@ public class Question3
 	public static void main(String[] args)
 	{
 	   long num=600851475143l;
-	   long temp=num;
 	   long max;
-	    for(int i=2;i<num;i++) 
+	    for(int i=3;i<num;i=i+2) 
 		 {
 	         while(num%i == 0)
 	         {
-	            System.out.println(i+" ");
 	            num=num/i;
 	         }
 	      }
