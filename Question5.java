@@ -10,7 +10,7 @@ class Question5
         int i,n=2520,t=0;
         while(true)
         {
-            for(i=1;i<=20;i++)
+            for(i=11;i<=20;i++)
             {
                 if(n%i!=0)
                 break;
