@@ -6,11 +6,11 @@ class Question7
     //****************************************************************
     public static void main(String args[])
     {
-        int i=2,c=1,j,t=0;
+        int i=3,c=2,j,t=0;
         while(c<=10001)
         {
             t=0;
-            for(j=2;j<i;j++)
+            for(j=2;j<=Math.sqrt(i);j++)
             {
                 if(i%j==0)
                 {
@@ -18,11 +18,11 @@ class Question7
                     break;
                 }
             }
-            i++;
+            i=i+2;
             if(t==0)
             c++;
         }
-        System.out.println("The 10001st prime number is:"+(i-1));
+        System.out.println("The 10001st prime number is:"+(i-2));
     }
 }
     
