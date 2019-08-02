@@ -8,7 +8,7 @@ public class Question3
 	{
 	   long num=600851475143l;
 	   long max;
-	    for(int i=3;i<num;i=i+2) 
+	    for(int i=3;i<Math.sqrt(num);i=i+2) 
 		 {
 	         while(num%i == 0)
 	         {
