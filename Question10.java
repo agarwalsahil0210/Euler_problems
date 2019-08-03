@@ -9,7 +9,7 @@ class Question10
         int i,j,c=0;long s=2;
         for(i=3;i<2000000;i=i+2)
         {
-            for(j=2;j<=Math.sqrt(i);j++)
+            for(j=3;j<=Math.sqrt(i);j=j+2)
             {
                 if(i%j==0)
                 c=1;
