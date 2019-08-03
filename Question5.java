@@ -8,7 +8,7 @@ class Question5
     public static void main(String args[])
     {
         int i,n=2520,t=0;
-        while(true)
+        while(t!=1)
         {
             for(i=11;i<=20;i++)
             {
@@ -16,15 +16,12 @@ class Question5
                 break;
                 else if(i==20)
                 {
+                    System.out.println("Smallest multiple of all the numbers from 1 to 20 is :"+n);
                     t=1;
+                    break;
                 }
             }
-            n++;
-            if(t==1)
-            {
-                System.out.println("Smallest multiple of all the numbers from 1 to 20 is :"+(n-1));
-                break;
-            }
+            n=n+20;
         }
     }
 }
