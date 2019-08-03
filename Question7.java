@@ -10,7 +10,7 @@ class Question7
         while(c<=10001)
         {
             t=0;
-            for(j=2;j<=Math.sqrt(i);j++)
+            for(j=3;j<=Math.sqrt(i);j=j+2)
             {
                 if(i%j==0)
                 {
